@@ -2,10 +2,6 @@
 #include "Tank.h"
 
 
-Tank::Tank(int x, int y)
-{
-}
-
 void Tank::CheckMovement()
 {
 }

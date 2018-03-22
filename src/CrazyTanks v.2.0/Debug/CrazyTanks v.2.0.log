@@ -1,0 +1,8 @@
+﻿  GameMap.cpp
+  CrazyTanks v.2.0.cpp
+  Создание кода...
+  Пропуск... (изменения не обнаружены)
+  Walls.cpp
+GameMap.obj : error LNK2005: "class GameMap gameMap" (?gameMap@@3VGameMap@@A) уже определен в CrazyTanks v.2.0.obj
+Walls.obj : error LNK2005: "class GameMap gameMap" (?gameMap@@3VGameMap@@A) уже определен в CrazyTanks v.2.0.obj
+C:\Users\Tom\source\repos\CrazyTanks v.2.0\Debug\CrazyTanks v.2.0.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

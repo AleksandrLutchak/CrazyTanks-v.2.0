@@ -13,8 +13,11 @@ public:
 	char MapMainArr[SIZE_Arr][SIZE_Arr];
 	char BattleArr[SIZE_Arr][SIZE_Arr];
 
-	void printMap();
-	
+	int GetSizeArr();
+	char printMap();
+	char Get_MapMainArr();	
+	char SetMapMainArr(int row, int column, char symbol);
+
 };
 
 GameMap gameMap;

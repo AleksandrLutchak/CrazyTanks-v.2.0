@@ -2,14 +2,24 @@
 #include "GameMap.h"
 
 
-void GameMap::printMap()
+
+
+char GameMap::printMap()
 {
-	{
-		for (int x = 0; x < SIZE_Arr; x++)
-			for (int y = 0; y < SIZE_Arr; y++)
-			{
-				cout << BattleArr[x][y];
-			}
-		cout << endl;
-	}
+	return 0;
+}
+
+int GameMap::GetSizeArr()
+{
+	return SIZE_Arr;
+}
+
+char GameMap::Get_MapMainArr()
+{
+	return 0;
+}
+
+char GameMap :: SetMapMainArr(int row, int column, char symbol)
+{
+	return 0;
 }
