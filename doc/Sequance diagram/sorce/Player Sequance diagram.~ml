@@ -1,0 +1,2386 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XPD:PROJECT xmlns:XPD="http://www.staruml.com" version="1">
+<XPD:HEADER>
+<XPD:SUBUNITS>
+</XPD:SUBUNITS>
+<XPD:PROFILES>
+<XPD:PROFILE>UMLStandard</XPD:PROFILE>
+</XPD:PROFILES>
+</XPD:HEADER>
+<XPD:BODY>
+<XPD:OBJ name="DocumentElement" type="UMLProject" guid="22qFljluekqLcQCvQGn0FQAA">
+<XPD:ATTR name="Title" type="string">Untitled</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">4</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLModel" guid="awJfbvV5WkmqdyDM2Yv0BAAA">
+<XPD:ATTR name="Name" type="string">Use Case View</XPD:ATTR>
+<XPD:REF name="Namespace">22qFljluekqLcQCvQGn0FQAA</XPD:REF>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLUseCaseDiagram" guid="Nkz17r3hU0SSpx8z9qsP/gAA">
+<XPD:ATTR name="Name" type="string">Main</XPD:ATTR>
+<XPD:REF name="DiagramOwner">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLUseCaseDiagramView" guid="6JoyCZxL5UqcpIrMeZE/LwAA">
+<XPD:REF name="Model">Nkz17r3hU0SSpx8z9qsP/gAA</XPD:REF>
+<XPD:REF name="Diagram">Nkz17r3hU0SSpx8z9qsP/gAA</XPD:REF>
+<XPD:ATTR name="#OwnedViews" type="integer">125</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLUseCaseView" guid="8lZwUVr730KjIG9/QBBYCQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">220</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">52</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">112</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">48</XPD:ATTR>
+<XPD:REF name="Model">2jZ59sgIYU+H4tozFMQnJgAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="wdiVQHdXXEqZ0ndtzsUG3gAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="tQ4uwv2YFEGLiaxeYp6+bwAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Walls</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="5K+w9KNcJUew5LYAXZkYwAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="9J4NwyEwDE2OCZq3alN8rAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="Wi1E9CtEtEefHKLmXrwXVQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">2jZ59sgIYU+H4tozFMQnJgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="cYLf90PzvUeBQv3AFjYMuwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">2jZ59sgIYU+H4tozFMQnJgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="sf2tgxkydEmHBerkxWX/UQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">2jZ59sgIYU+H4tozFMQnJgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[1]" type="UMLUseCaseView" guid="IAgpJvp1p0WhtFpII/TZ3AAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">360</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">117</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">52</XPD:ATTR>
+<XPD:REF name="Model">f2wNfYxj/02spjD79ff0XgAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="lKf429yevUeK9SiDZWrBMgAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="2jlJmjrK4UeWYOWmF+xh6QAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Castle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="x6d2tDlUd0+GC2sdqT3NlgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="rZhqzP1WYU+mEmKf1xBoYgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="3tfLp4xdoU+rCmHVE7vSgwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">f2wNfYxj/02spjD79ff0XgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="33A9Gdb4AEa3XGeGUJHV7wAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">f2wNfYxj/02spjD79ff0XgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="QlNAHMq89UOtE4kkZ1i+tQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">f2wNfYxj/02spjD79ff0XgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[2]" type="UMLUseCaseView" guid="pyv+5cNIJ0KqtvKc0RXTNwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">505</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">52</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">121</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">49</XPD:ATTR>
+<XPD:REF name="Model">RteLVd8zeEOgl8DxjqcZ5AAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="BVkMxxBJwkitn0f867GMewAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="sR5pzb7Yf0W6T2LCiLhfDgAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">AI_Tank</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="Tzl0dnP5v0Ssi/79wOBp5wAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="9D3taPyesU++b/2lyY7VswAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="vSPol3WGfUeIqz/7n5WUjAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">RteLVd8zeEOgl8DxjqcZ5AAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="V0ni9ZRDrEmN3XId7bf5IgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">RteLVd8zeEOgl8DxjqcZ5AAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="ypVcodq9FUW+RILL6S7DoAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">RteLVd8zeEOgl8DxjqcZ5AAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[3]" type="UMLUseCaseView" guid="Crzpsw5bJUC+bx99pTO98gAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">654</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">48</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">120</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">56</XPD:ATTR>
+<XPD:REF name="Model">MsfFy91++EyZYhq1VhACpQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="wFF6DkoOjEWqMUHa1EorlAAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="G5mzkyyNvE+1gUJbJbkArwAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">PlayerTank</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="keJuIOEwI06LLYanFijlBgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="RE0T3FJGf06EdrkfltKXDwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="0aMejZsObU27Lp5UMMwuXAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">MsfFy91++EyZYhq1VhACpQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="OvuG6vik5kGvVf5JlTuFAAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">MsfFy91++EyZYhq1VhACpQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="+mX8GIeq6UO+h9LLpVI+mQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">MsfFy91++EyZYhq1VhACpQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[4]" type="UMLUseCaseView" guid="vHp2E+1ujUmodv52vQhxUwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">951</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">48</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">124</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">56</XPD:ATTR>
+<XPD:REF name="Model">0nth1AOeWkGSi9c8WSkjhQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="BkG6m5l++UiomrHPrK8lZwAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="k6BtiiCE8kuO8FgnNioI9gAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">GameMap</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="BlpO9rcva0qnrR0r2uTPJQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="2DAbKuCj+E2tJSyC8D0quAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="rjZQ8sAq1Eeu87wEvt0CfwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">0nth1AOeWkGSi9c8WSkjhQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="lrZqMpQ2Tk6yuceRPYlNmgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">0nth1AOeWkGSi9c8WSkjhQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="IHSXgBkjc0+oZo9Dh5qHrQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">0nth1AOeWkGSi9c8WSkjhQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[5]" type="UMLUseCaseView" guid="rQe3r0ecrUmOLvbiMGmyrQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">799</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">48</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">133</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">57</XPD:ATTR>
+<XPD:REF name="Model">F52KpvVOkUiP6GdjLOpVOQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="3+2cfyHUvUWwM0ksvjZtWwAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="RzWFUjXt50ysPkhW8D1wNgAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Destroy</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="G0vVm7JrYE25KPjHRFO2TgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="SVu8KawKAUq28AZs3HevowAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="uhoGL+I4bU+1pd3qTCRLZAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">F52KpvVOkUiP6GdjLOpVOQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="qpxoHhpN20C1I/K00m9bSQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">F52KpvVOkUiP6GdjLOpVOQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="5B/QHe6J0EKOqnfYyoLw/QAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">F52KpvVOkUiP6GdjLOpVOQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[6]" type="UMLActorView" guid="zZPHncO2OkiApWhpf7+B9AAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">44</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">8</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">90</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">92</XPD:ATTR>
+<XPD:REF name="Model">CRRY5/7v8kGwPTaw3mwDtwAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="zND7obCfYEq2rkpGI3H4awAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="iLKSrIFkQECqNcMAFslCOAAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Player</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="yDnxFDCSxkK5nezK8mkpJQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="/uo7+FCZvEeVvk1nFUG/MQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="Y//2YCKk/E2/+RqzPn9ltwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">CRRY5/7v8kGwPTaw3mwDtwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="p3FSTYt4E0qEi+J8JJafiQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">CRRY5/7v8kGwPTaw3mwDtwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[7]" type="LineView" guid="9+GrSBc3EEijrXNSlgdX/AAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">88</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">116</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">649</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">88,116;88,764</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[8]" type="LineView" guid="+Rv5JAJpz0ekdtmu6w4mKwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">276</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">113</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">656</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">276,113;276,768</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[9]" type="LineView" guid="Urk3MXk4eEqLEYJoOgqMxAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">416</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">113</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">656</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">416,113;416,768</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[10]" type="LineView" guid="kosIVDZp30+yPwlqx/2tXgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">568</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">109</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">664</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">568,109;568,772</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[11]" type="LineView" guid="nKd7iNfFzkKB3I27T7vpagAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">716</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">117</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">660</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">716,117;716,776</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[12]" type="LineView" guid="7TJKqOViLk+6L1l3in606QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1016</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">113</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">660</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1016,113;1016,772</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[13]" type="LineView" guid="FxZfoGAZNkS6+R8zCZrMigAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">868</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">113</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">668</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">868,113;868,780</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[14]" type="RectangleView" guid="WruGJjY1e0q4uAnH7oBMqwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">270</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">140</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[15]" type="RectangleView" guid="J3IYRy3ihEWZIlHG3/NDUQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1010</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">132</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">429</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[16]" type="LineView" guid="FHDxoGSmUkSW8a0XlvjnWAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">284</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">148</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">720</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">284,148;1003,148</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[17]" type="LineView" guid="nFrKLhgngUCuFFyqxG9S1wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">988</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">144</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">988,144;1003,148</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[18]" type="LineView" guid="J14nEyhmdkicSHaiucZT6QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1003</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">149</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1003,149;988,151</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[19]" type="UMLTextView" guid="3hpxuixXq0ual/etxa6iPQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">304</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">124</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">96</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">BuildWals()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[20]" type="RectangleView" guid="DeCtQ06lpk+vI5F4tWqLYgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">410</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">160</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[21]" type="LineView" guid="ZVJloeMf3U6fxwaQZMknkAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">424</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">176</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">581</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">424,176;1004,176</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[22]" type="LineView" guid="peNh3X1UtkOhTf5ctFemEQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1007</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">177</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1007,177;992,179</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[23]" type="LineView" guid="ojI/2yxxSUumboeygUQqlgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">992</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">172</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">992,172;1007,176</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[24]" type="UMLTextView" guid="yzNIuf5g302GtvLthqTZAwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">444</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">156</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">96</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">BuildCastle()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[25]" type="RectangleView" guid="Zk1oWkNbLE+e4FgNqg8aLwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">562</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">257</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[26]" type="LineView" guid="ceWaDeZxqUyCuweKgERWZQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">576</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">263</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">429</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">576,263;1004,263</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[27]" type="UMLTextView" guid="Z5yg9qpaAk+4NoNw+gXkZAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">592</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">244</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">96</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">putAI_Tank()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[28]" type="LineView" guid="t/fLIcINek2yFBhH/+EjegAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">992</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">259</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">992,259;1007,263</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[29]" type="LineView" guid="lADs21O+cEW4v1CMIOuP3QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1007</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">264</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1007,264;992,266</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[30]" type="RectangleView" guid="UP0hbT9hhEOQRIcSLWC8tAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">709</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">279</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[31]" type="LineView" guid="eCsdz7yXHEa+SFTzBDwWPQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">724</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">288</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">277</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">724,288;1000,288</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[32]" type="UMLTextView" guid="trKaA0AWh0qHWLz/+Jv+0AAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">736</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">268</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">96</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">PlayerTank()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[33]" type="LineView" guid="eqP3aOzJK0ehi+L1YgcBNAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1005</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">289</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1005,289;990,291</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[34]" type="LineView" guid="Dc0BmZBd7kmFAfoHPz714AAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">990</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">284</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">990,284;1005,288</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[35]" type="RectangleView" guid="wqkC5Cm5kUiueaArEAmYsgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">82</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">349</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">134</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[36]" type="RectangleView" guid="nJbbk4FBcUqGWmWLyojAdwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">710</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">348</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[37]" type="UMLTextView" guid="ljsNn5RJzUOztY/57jNnRwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">104</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">332</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">177</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Press &quot;up/down/left/right&quot; buttons
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[38]" type="LineView" guid="/NnkIXHRxEiVIV81zZhw4wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">100</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">356</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">605</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">100,356;704,356</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[39]" type="LineView" guid="bP5HKZQjVE+DyU8r6ELpUQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">692</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">352</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">692,352;707,356</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[40]" type="LineView" guid="eYm/P8AWUEKl+xKIdBJL+gAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">707</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">357</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">707,357;692,359</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[41]" type="LineView" guid="d/HlpAgG7kSCJvlGLtcJnwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">724</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">356</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">277</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">724,356;1000,356</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[42]" type="UMLTextView" guid="YsF5ENHRH0GA4EygGRAEgAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">740</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">336</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">96</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">movement()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[43]" type="LineView" guid="MtAK2EsBgUiC8oDaA0u2LAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">988</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">352</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">988,352;1003,356</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[44]" type="LineView" guid="/dAwD9WRlUKAguxIq0ZlHwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1003</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">357</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1003,357;988,359</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[45]" type="LineView" guid="9Xh9GD5YtEqWrkdi7eY60gAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">100</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">456</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">601</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">100,456;700,456</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[46]" type="LineView" guid="Izxd0z1UJkaT7yWYE5dQXwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">691</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">452</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">691,452;706,456</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[47]" type="LineView" guid="WTS3JGyAZUqdBmpHJl5HcwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">706</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">457</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">706,457;691,459</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[48]" type="UMLTextView" guid="AVIo1+UrakqqVd+UkbHbdAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">108</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">432</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">100</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Press &quot;Fire&quot; button
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[49]" type="RectangleView" guid="Ij3W8o7WW0ecaG/ojHbF6QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">710</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">440</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">69</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[50]" type="LineView" guid="OhoNQUMf20WYo7QPFptoBgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">728</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">456</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">273</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">728,456;1000,456</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[51]" type="UMLTextView" guid="Z/6DRnV4tU6VkISkfS9nDwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">748</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">432</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">39</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">shot()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[52]" type="LineView" guid="F8xl5bOP8kOMR8wbX9CNhwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">988</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">452</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">988,452;1003,456</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[53]" type="LineView" guid="cXO3MUns6ESpx1TeqA5JsAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1003</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">457</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1003,457;988,459</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[54]" type="LineView" guid="H/F03/iorkme270WtHlm9wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1164</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">118</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">651</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1164,118;1164,768</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[55]" type="UMLUseCaseView" guid="eksZ41CY0EOR4n5/TjsPWAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1104</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">48</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">125</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">61</XPD:ATTR>
+<XPD:REF name="Model">55qoS90n0kaDuxCxfCbf+QAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="e/qFSlHkHUCpgwCQbtudZAAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="31h3gMyUqU2jZHtGa2KZfQAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">GameOver</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="i49p+7gbwkWdUUsxkSZ1hQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="WS4U1P2Qqk+GlQxTD2WbbgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="hB6Bd0xVjE6thTL4bP0PswAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">55qoS90n0kaDuxCxfCbf+QAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="XO5bE9YAwUuWAkOFVo9qAAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">55qoS90n0kaDuxCxfCbf+QAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="ZYEI+BuflES/hSqN6Ep6yAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">55qoS90n0kaDuxCxfCbf+QAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[56]" type="RectangleView" guid="XV5UGYhIqkOhOB5h6pZH7AAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">863</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">568</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">73</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[57]" type="LineView" guid="JJl73w/VqUCJMw/0zKaYQAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">881</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">588</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">271</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">881,588;1151,588</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[58]" type="UMLTextView" guid="MKk1h+5TskK1bAcR5e0uMAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">893</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">564</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">52</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">GoldHit()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[59]" type="LineView" guid="vjPXp4zta0uHimlgBaBdKQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1139</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">584</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1139,584;1154,588</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[60]" type="LineView" guid="GMFswU6teECeOBzqGLMdKQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1154</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">589</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1154,589;1139,591</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[61]" type="LineView" guid="0YIv7wRLq0i1NlDOxp+UoAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">885</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">632</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">267</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">885,632;1151,633</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[62]" type="UMLTextView" guid="5sn/RR5yw0myFOVfIbE0KAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">889</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">608</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">84</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">PlayerTankHit()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[63]" type="LineView" guid="FVUCr5M780OEGtETd9zCYAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1139</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">629</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1139,629;1154,633</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[64]" type="LineView" guid="RcUrKhzJIUmagaQxKXba/QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1154</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">634</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1154,634;1139,636</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[65]" type="RectangleView" guid="2k9GWu4T0k+11+furoYGbAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1158</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">579</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">98</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[66]" type="RectangleView" guid="30nltRNggEKuOHnhUdJFEwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">562</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">540</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[67]" type="LineView" guid="2cz7nqz0XE2znkMeuliJ8gAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">581</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">584</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">277</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">581,584;857,584</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[68]" type="UMLTextView" guid="7QMEfR4DZUSjwiMPHJjYRQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">593</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">564</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">39</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">shot()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[69]" type="LineView" guid="7ScaIiscHUaKEFOTuHs06QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">841</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">580</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">841,580;856,584</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[70]" type="LineView" guid="Lv5LkMPRm0KPLaWGEyYEtwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">856</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">585</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">856,585;841,587</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[71]" type="RectangleView" guid="h7b1WBLQPU+GC9kC2bL4qgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">862</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">484</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">73</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[72]" type="LineView" guid="WjRKRJ9dZ0uciw1Quv1eVAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">724</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">492</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">133</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">724,492;856,492</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[73]" type="UMLTextView" guid="ZqKhAiyXSky3QTX3IO0cuwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">746</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">470</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">39</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">shot()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[74]" type="LineView" guid="q6Tvdho6EUOYVij4wpaJKgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">728</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">456</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">273</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">728,456;1000,456</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[75]" type="LineView" guid="G6/EiIyMuEG8eoj14rfibAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">988</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">452</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">988,452;1003,456</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[76]" type="LineView" guid="vthgr7GzoEqxEv6Lu46LfgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1003</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">457</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1003,457;988,459</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[77]" type="LineView" guid="wGGqw3RbiUaFYzy1QeUT1AAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">844</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">488</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">844,488;859,492</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[78]" type="LineView" guid="9ouK+9T2mEC5xparDAlWdgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">859</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">493</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">859,493;844,495</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[79]" type="LineView" guid="MwxH//9EuEy0EvNz6Z4idwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">581</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">548</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">277</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">581,548;857,548</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[80]" type="UMLTextView" guid="eRBSc0R7U0+d055yfgZ0EAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">596</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">530</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">39</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">shot()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[81]" type="LineView" guid="pNi0k6DBMUa/n/D9U5e2+AAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">841</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">544</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">841,544;856,548</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[82]" type="LineView" guid="bnU2ZEFLbkaqlzg69Kkc8QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">856</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">549</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">856,549;841,551</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[83]" type="LineView" guid="v1OVsQEiRE+zjseOV/hdtgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">879</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">492</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">125</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">879,492;1003,492</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[84]" type="UMLTextView" guid="EGgY2gPkhkqdvACx2Le10QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">894</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">472</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">51</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">WallHit()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[85]" type="LineView" guid="+Cf3KUaXcUOgqm0HRT7FpQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">991</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">488</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">991,488;1006,492</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[86]" type="LineView" guid="OJH2qnF+2EWRlS9hkAiRLgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1006</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">493</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1006,493;991,495</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[87]" type="LineView" guid="Gs7uuHospEmZa7y+2tFeUgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">879</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">520</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">125</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">879,520;1003,520</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[88]" type="UMLTextView" guid="WzmIN5FetkuhIqSLHEpQxgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">893</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">502</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">61</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">CastleHit()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[89]" type="LineView" guid="VHn6w7PTs0yqpYhtccwVcQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">991</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">516</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">991,516;1006,520</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[90]" type="LineView" guid="3J3oJYSwgUmLC9a8LDmpEwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1006</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">521</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1006,521;991,523</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[91]" type="LineView" guid="FvrA5vsWCka62OLkejCFZQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">879</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">549</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">125</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">879,549;1003,549</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[92]" type="UMLTextView" guid="6ApzXyEMnkiNEU9uMJG3YgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">895</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">529</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">52</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">GoldHit()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[93]" type="LineView" guid="DHmjrDcf/kOY2lSqjuT+uwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">991</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">545</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">991,545;1006,549</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[94]" type="LineView" guid="D1zzLljvnUyBbXfnWUBbQQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1006</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">550</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1006,550;991,552</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[95]" type="RectangleView" guid="39GxHysIAUuMS5c3SncYtwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">563</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">394</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[96]" type="LineView" guid="V8VQh9yL10OBd5FwXNrJdgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">579</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">404</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">418</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">579,404;996,404</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[97]" type="UMLTextView" guid="BGyEF/a+zE6loZWdAN67OQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">604</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">384</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">96</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">movement()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[98]" type="LineView" guid="iwYwA1YPDUKAyWtqF2pZ9wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">983</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">400</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">983,400;998,404</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[99]" type="LineView" guid="zKfBbE2uKEWtg8/Mhohw9wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">998</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">405</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">998,405;983,407</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[100]" type="RectangleView" guid="f1PrqtNvqkSzQzuMoIeWTgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">410</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">226</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[101]" type="LineView" guid="9rczvsVlHUKEYnO0flo8sQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">422</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">232</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">581</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">422,232;1002,232</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[102]" type="UMLTextView" guid="ED7HnaCXpUGftd+p0AZZxwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">456</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">212</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">96</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Gold()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[103]" type="LineView" guid="fBNGXZ02ukKiEql8U2PvDAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1005</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">233</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1005,233;990,235</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[104]" type="LineView" guid="wsN3uu4VL0ew0bGfA9k3SQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">990</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">228</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">990,228;1005,232</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[105]" type="LineView" guid="IFXXnXoKOU2fZwUTm3HdUAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1044</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">660</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1044,660;1025,663</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[106]" type="LineView" guid="iaJjm7/Tg0GNcEv2Dkcm5wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1025</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">664</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">19</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1025,664;1043,668</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[107]" type="RectangleView" guid="01/g/VyLIEuM632QCO7DYQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1010</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">646</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">77</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[108]" type="UMLTextView" guid="k9tJeyiYDEOHQ1T/2zazKAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1064</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">644</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">67</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">LoseGame()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[109]" type="RectangleView" guid="4Yf5h3wA1ECECh4B9sLxiQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">710</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">723</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[110]" type="LineView" guid="bnB7h6LfY0CmDGSmNsLyfwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">724</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">740</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">133</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">724,740;856,740</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[111]" type="UMLTextView" guid="FAVDkyiuVEizz9VY1NAOswAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">756</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">720</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">39</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">shot()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[112]" type="LineView" guid="3OzPEyGQtE2WZQAhQC3jkgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">844</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">736</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">844,736;859,740</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[113]" type="LineView" guid="ylrbfHWjgk+0Pc9N9cv0MgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">859</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">741</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">859,741;844,743</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[114]" type="RectangleView" guid="zkV8oTZ+skq4lBvpUCssHgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">863</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">724</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[115]" type="LineView" guid="vg7mRzmQMEm6+0r8j+jQ/AAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">877</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">740</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">267</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">877,740;1143,741</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[116]" type="UMLTextView" guid="W6cTuS9dqka+3S0l6TOXiwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">891</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">720</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">84</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">AI_TankHit()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[117]" type="LineView" guid="cIto2fb6jU6bRgl7eGnBxgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1131</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">737</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1131,737;1146,741</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[118]" type="LineView" guid="aqXO2pr1uESkzu5Vbl8UOgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1146</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">742</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1146,742;1131,744</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[119]" type="RectangleView" guid="K+gz/sB4pkqzNR6pCenyiwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1158</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">688</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">73</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[120]" type="LineView" guid="IDFxUrx81kG/aWYJhNIqmwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1044</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">704</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1044,704;1025,707</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[121]" type="LineView" guid="NL9zNOVN5Umcna02LeA0+wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1025</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">708</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">19</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1025,708;1043,712</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[122]" type="UMLTextView" guid="yTBWhPaYe0+xSGclkZbPmwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1066</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">690</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">67</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">WinGame()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[123]" type="LineView" guid="epssbY64fUOlnNTY1QF9ZQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1029</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">664</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">125</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1029,664;1153,664</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[124]" type="LineView" guid="P89FzX9HSEKAmllITA4CYwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">1029</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">708</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">125</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1029,708;1153,708</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#OwnedElements" type="integer">9</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLUseCase" guid="2jZ59sgIYU+H4tozFMQnJgAA">
+<XPD:ATTR name="Name" type="string">Walls</XPD:ATTR>
+<XPD:REF name="Namespace">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">8lZwUVr730KjIG9/QBBYCQAA</XPD:REF>
+<XPD:REF name="Views[1]">Wi1E9CtEtEefHKLmXrwXVQAA</XPD:REF>
+<XPD:REF name="Views[2]">cYLf90PzvUeBQv3AFjYMuwAA</XPD:REF>
+<XPD:REF name="Views[3]">sf2tgxkydEmHBerkxWX/UQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLUseCase" guid="amJchkJM90aHEsB2/G2MOwAA">
+<XPD:ATTR name="Name" type="string">Bullet</XPD:ATTR>
+<XPD:REF name="Namespace">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[2]" type="UMLUseCase" guid="f2wNfYxj/02spjD79ff0XgAA">
+<XPD:ATTR name="Name" type="string">Castle</XPD:ATTR>
+<XPD:REF name="Namespace">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">IAgpJvp1p0WhtFpII/TZ3AAA</XPD:REF>
+<XPD:REF name="Views[1]">3tfLp4xdoU+rCmHVE7vSgwAA</XPD:REF>
+<XPD:REF name="Views[2]">33A9Gdb4AEa3XGeGUJHV7wAA</XPD:REF>
+<XPD:REF name="Views[3]">QlNAHMq89UOtE4kkZ1i+tQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[3]" type="UMLUseCase" guid="RteLVd8zeEOgl8DxjqcZ5AAA">
+<XPD:ATTR name="Name" type="string">AI_Tank</XPD:ATTR>
+<XPD:REF name="Namespace">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">pyv+5cNIJ0KqtvKc0RXTNwAA</XPD:REF>
+<XPD:REF name="Views[1]">vSPol3WGfUeIqz/7n5WUjAAA</XPD:REF>
+<XPD:REF name="Views[2]">V0ni9ZRDrEmN3XId7bf5IgAA</XPD:REF>
+<XPD:REF name="Views[3]">ypVcodq9FUW+RILL6S7DoAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[4]" type="UMLUseCase" guid="MsfFy91++EyZYhq1VhACpQAA">
+<XPD:ATTR name="Name" type="string">PlayerTank</XPD:ATTR>
+<XPD:REF name="Namespace">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">8</XPD:ATTR>
+<XPD:REF name="Views[0]">Crzpsw5bJUC+bx99pTO98gAA</XPD:REF>
+<XPD:REF name="Views[1]">0aMejZsObU27Lp5UMMwuXAAA</XPD:REF>
+<XPD:REF name="Views[2]">OvuG6vik5kGvVf5JlTuFAAAA</XPD:REF>
+<XPD:REF name="Views[3]">+mX8GIeq6UO+h9LLpVI+mQAA</XPD:REF>
+<XPD:REF name="Views[4]">2ZUvcd2omEmvNP6naHHM8wAA</XPD:REF>
+<XPD:REF name="Views[5]">neqpyyTHLk6Lht4Yb18U1wAA</XPD:REF>
+<XPD:REF name="Views[6]">8JUnjVGpeUmhYNLM/mNyAQAA</XPD:REF>
+<XPD:REF name="Views[7]">umNt7IIf4ESfSnYMc59xfAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[5]" type="UMLUseCase" guid="0nth1AOeWkGSi9c8WSkjhQAA">
+<XPD:ATTR name="Name" type="string">GameMap</XPD:ATTR>
+<XPD:REF name="Namespace">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">8</XPD:ATTR>
+<XPD:REF name="Views[0]">vHp2E+1ujUmodv52vQhxUwAA</XPD:REF>
+<XPD:REF name="Views[1]">rjZQ8sAq1Eeu87wEvt0CfwAA</XPD:REF>
+<XPD:REF name="Views[2]">lrZqMpQ2Tk6yuceRPYlNmgAA</XPD:REF>
+<XPD:REF name="Views[3]">IHSXgBkjc0+oZo9Dh5qHrQAA</XPD:REF>
+<XPD:REF name="Views[4]">K8ryVDu89UafH2jBsO4AfwAA</XPD:REF>
+<XPD:REF name="Views[5]">HjEbjb3LckWV/zNv2LQwYAAA</XPD:REF>
+<XPD:REF name="Views[6]">xXE/C1Wbp0eiOHxjGv/KyQAA</XPD:REF>
+<XPD:REF name="Views[7]">9YJQ38l4ukeFe7Exq4bvGgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[6]" type="UMLUseCase" guid="F52KpvVOkUiP6GdjLOpVOQAA">
+<XPD:ATTR name="Name" type="string">Engine</XPD:ATTR>
+<XPD:REF name="Namespace">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">8</XPD:ATTR>
+<XPD:REF name="Views[0]">rQe3r0ecrUmOLvbiMGmyrQAA</XPD:REF>
+<XPD:REF name="Views[1]">uhoGL+I4bU+1pd3qTCRLZAAA</XPD:REF>
+<XPD:REF name="Views[2]">qpxoHhpN20C1I/K00m9bSQAA</XPD:REF>
+<XPD:REF name="Views[3]">5B/QHe6J0EKOqnfYyoLw/QAA</XPD:REF>
+<XPD:REF name="Views[4]">XsfMqwlS/E6PFU3El9Up6wAA</XPD:REF>
+<XPD:REF name="Views[5]">I9xshRkVFUSZySZtx70RbgAA</XPD:REF>
+<XPD:REF name="Views[6]">XT8SxQm9QEuhcIW28io3OQAA</XPD:REF>
+<XPD:REF name="Views[7]">+T1F/y9m7U6vQRexpnHSNAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[7]" type="UMLActor" guid="CRRY5/7v8kGwPTaw3mwDtwAA">
+<XPD:ATTR name="Name" type="string">Player</XPD:ATTR>
+<XPD:REF name="Namespace">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">6</XPD:ATTR>
+<XPD:REF name="Views[0]">zZPHncO2OkiApWhpf7+B9AAA</XPD:REF>
+<XPD:REF name="Views[1]">Y//2YCKk/E2/+RqzPn9ltwAA</XPD:REF>
+<XPD:REF name="Views[2]">p3FSTYt4E0qEi+J8JJafiQAA</XPD:REF>
+<XPD:REF name="Views[3]">mJkWr75th0K5FER58nOEpAAA</XPD:REF>
+<XPD:REF name="Views[4]">c9lQUOr+2kKJ8IAcdnljtQAA</XPD:REF>
+<XPD:REF name="Views[5]">iVKFF7YREkqu3RFVqgCObQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[8]" type="UMLUseCase" guid="55qoS90n0kaDuxCxfCbf+QAA">
+<XPD:ATTR name="Name" type="string">GameOver</XPD:ATTR>
+<XPD:REF name="Namespace">awJfbvV5WkmqdyDM2Yv0BAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">eksZ41CY0EOR4n5/TjsPWAAA</XPD:REF>
+<XPD:REF name="Views[1]">hB6Bd0xVjE6thTL4bP0PswAA</XPD:REF>
+<XPD:REF name="Views[2]">XO5bE9YAwUuWAkOFVo9qAAAA</XPD:REF>
+<XPD:REF name="Views[3]">ZYEI+BuflES/hSqN6Ep6yAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLModel" guid="eW/xbNP480KYWmmyWTyt6wAA">
+<XPD:ATTR name="Name" type="string">Logical View</XPD:ATTR>
+<XPD:REF name="Namespace">22qFljluekqLcQCvQGn0FQAA</XPD:REF>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLClassDiagram" guid="roLyyndBqkusY6kOj3NBnAAA">
+<XPD:ATTR name="Name" type="string">Main</XPD:ATTR>
+<XPD:ATTR name="DefaultDiagram" type="boolean">True</XPD:ATTR>
+<XPD:REF name="DiagramOwner">eW/xbNP480KYWmmyWTyt6wAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="S0ABDejmikeldBzhRrGqWgAA">
+<XPD:REF name="Model">roLyyndBqkusY6kOj3NBnAAA</XPD:REF>
+<XPD:REF name="Diagram">roLyyndBqkusY6kOj3NBnAAA</XPD:REF>
+<XPD:ATTR name="#OwnedViews" type="integer">40</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLActorView" guid="mJkWr75th0K5FER58nOEpAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">43</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">18</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">90</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">92</XPD:ATTR>
+<XPD:REF name="Model">CRRY5/7v8kGwPTaw3mwDtwAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="FYSAxRLY70C/z7gVbLREfAAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="934Ob7li+EeQbmvtefPo+wAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Player</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="YyEBEvn+HkGusERcwAJyMgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="N2dzY43AUUynVFl8EDibJAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="c9lQUOr+2kKJ8IAcdnljtQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">CRRY5/7v8kGwPTaw3mwDtwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="iVKFF7YREkqu3RFVqgCObQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">CRRY5/7v8kGwPTaw3mwDtwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[1]" type="LineView" guid="EoxhILFKeUOAyeHHeVr+ygAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">88</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">116</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">649</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">88,116;88,764</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[2]" type="RectangleView" guid="sjzRO9uqWk+m3ejs5toCRwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">82</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">263</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">134</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[3]" type="UMLTextView" guid="2s8wn5uXR0ytiil0CsY6iAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">112</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">258</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">177</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Press &quot;up/down/left/right&quot; buttons
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[4]" type="LineView" guid="OyFv5Rg9VEGMsHoT96+bxwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">98</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">280</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">417</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">98,280;514,280</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[5]" type="LineView" guid="51uqU5045EWEtXckXyq3tAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">98</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">380</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">413</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">98,380;510,380</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[6]" type="UMLTextView" guid="eYnnkJ1KwEKCYVKDeLcOowAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">116</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">362</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">100</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Press &quot;Fire&quot; button
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[7]" type="UMLUseCaseView" guid="2ZUvcd2omEmvNP6naHHM8wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">465</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">43</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">120</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">56</XPD:ATTR>
+<XPD:REF name="Model">MsfFy91++EyZYhq1VhACpQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Xle8VL73xUWTo2Q7eCCVEwAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="YTPv/LoLM06taczdxxF4hwAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">PlayerTank</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="jAP3eburnEiX/N06Ab2G4AAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="liYu2KE1f02awTAeaZlRfgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="neqpyyTHLk6Lht4Yb18U1wAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">MsfFy91++EyZYhq1VhACpQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="8JUnjVGpeUmhYNLM/mNyAQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">MsfFy91++EyZYhq1VhACpQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="umNt7IIf4ESfSnYMc59xfAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">MsfFy91++EyZYhq1VhACpQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[8]" type="LineView" guid="Hlg2ayoQJ0et8plUUBq0VgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">524</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">101</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">660</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">524,101;524,760</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[9]" type="RectangleView" guid="Tq7dqiR8uU6vmNLuZ8/bGgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">518</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">248</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[10]" type="RectangleView" guid="c23NMckWfEak868PWLb6ZgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">518</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">332</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">69</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[11]" type="UMLUseCaseView" guid="K8ryVDu89UafH2jBsO4AfwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">773</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">42</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">124</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">56</XPD:ATTR>
+<XPD:REF name="Model">0nth1AOeWkGSi9c8WSkjhQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="kEvxAZlGKEu08PGlBxQcAwAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="usU3ZdJrL0qSrDStSymsSQAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">GameMap</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="DplQjtTAX0+A093X84QRHgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="OamI0oGwJk6LatMsYlmMIQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="HjEbjb3LckWV/zNv2LQwYAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">0nth1AOeWkGSi9c8WSkjhQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="xXE/C1Wbp0eiOHxjGv/KyQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">0nth1AOeWkGSi9c8WSkjhQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="9YJQ38l4ukeFe7Exq4bvGgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">0nth1AOeWkGSi9c8WSkjhQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[12]" type="LineView" guid="bfJ3N2YeiUK6B4yQGxCVtAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">833</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">105</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">660</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">833,105;833,764</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[13]" type="RectangleView" guid="LBsjVRfP7EOQMe5NVQ/f3wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">828</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">176</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">283</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[14]" type="LineView" guid="6RxfSXvDpEe2hepqd6PEWgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">544</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">256</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">277</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">544,256;820,256</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[15]" type="UMLTextView" guid="LQjPwB704kybS07u+a6x5QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">554</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">234</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">100</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">PlayerControllers()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[16]" type="LineView" guid="R7Tz8ZOy102uFIPVFEZuBQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">681</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">106</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">668</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">681,106;681,773</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[17]" type="LineView" guid="T5nPcLGCXEK+v9wgQmH9oAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">544</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">344</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">273</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">544,344;816,344</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[18]" type="UMLTextView" guid="7shpfbQME0KHu7LxlXDfNgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">570</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">326</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">39</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">shot()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[19]" type="RectangleView" guid="b+B2egUQyESrjULCB500LgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">677</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">369</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">13</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">33</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[20]" type="LineView" guid="DQSGVUlL3E6H3wEV+wuvpwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">532</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">388</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">141</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">532,388;672,388</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[21]" type="UMLTextView" guid="/N1qJ15X4k+JGIu9vkFnkwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">572</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">368</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">39</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">shot()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[22]" type="LineView" guid="aOxuQl05FUa+FYPN8Ns0aQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">536</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">344</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">281</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">536,344;816,344</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[23]" type="LineView" guid="fiWBflMBCUOKdm7HQjjL5gAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">660</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">384</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">660,384;675,388</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[24]" type="LineView" guid="ejosptvOiUuC6uKpFnScIwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">675</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">389</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">675,389;660,391</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[25]" type="LineView" guid="iFKYjea+DEeW6mzLRl036wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">695</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">388</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">125</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">695,388;819,388</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[26]" type="UMLTextView" guid="hJqQhs8XikmpuFYQmyzl3wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">688</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">366</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">140</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">CheckBulletWithObjectHit()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[27]" type="LineView" guid="NjV1xZqVmUm4tm9/+DCKQwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">804</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">340</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">804,340;819,344</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[28]" type="LineView" guid="iXjPJFpt+0eOp8OMs8kaoQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">819</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">345</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">819,345;804,347</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[29]" type="LineView" guid="HWpplTmQtUmgDPDfy0HFfAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">804</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">340</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">804,340;819,344</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[30]" type="LineView" guid="J2Zr4y372UGJZsMxopRooAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">819</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">345</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">819,345;804,347</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[31]" type="LineView" guid="TLbrLx1M/kyG9+0p5hjIlAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">807</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">384</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">807,384;822,388</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[32]" type="LineView" guid="Ehls3foz/EOLnXvz1FejBQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">822</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">389</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">822,389;807,391</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[33]" type="LineView" guid="BahurF2PnESqSp/yCEc1qQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">808</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">252</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">808,252;823,256</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[34]" type="LineView" guid="/+dDmL+gCUOa5APDMtbJ7QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">823</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">257</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">823,257;808,259</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[35]" type="UMLUseCaseView" guid="XsfMqwlS/E6PFU3El9Up6wAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">615</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">42</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">133</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">57</XPD:ATTR>
+<XPD:REF name="Model">F52KpvVOkUiP6GdjLOpVOQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="yg4KK84kb0izJQs01rqiwAAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="zQ1BCvBUlkCu0UbX5FFh6wAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Engine</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="HEECQj6sW0aU0ukOdllODwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="NAF9mXORl0CVCW4pu7t1/AAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="I9xshRkVFUSZySZtx70RbgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">F52KpvVOkUiP6GdjLOpVOQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="XT8SxQm9QEuhcIW28io3OQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">F52KpvVOkUiP6GdjLOpVOQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ExtensionPointCompartment" type="UMLExtensionPointCompartmentView" guid="+T1F/y9m7U6vQRexpnHSNAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">F52KpvVOkUiP6GdjLOpVOQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[36]" type="LineView" guid="pPxs44KeN0aPxFtww3eY6gAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">496</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">376</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">496,376;511,380</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[37]" type="LineView" guid="53S4/ctfUkO/DbAf38bYSAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">511</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">381</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">511,381;496,383</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[38]" type="LineView" guid="snANyNTpHEG2+X4lRrGx8QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">496</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">276</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">16</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">496,276;511,280</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[39]" type="LineView" guid="8zu9EgdgskmRRHTnhtag8QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">511</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">281</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="LineWidth" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="LineKind" type="LineKind">lkSolid</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">511,281;496,283</XPD:ATTR>
+<XPD:ATTR name="BeginArrowheadStyle" type="ArrowheadStyleKind">askNone</XPD:ATTR>
+<XPD:ATTR name="EndArrowheadStyle" type="ArrowheadStyleKind">askTriangle</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[2]" type="UMLModel" guid="PFOYL+RZGUWVrxpJADd3nAAA">
+<XPD:ATTR name="Name" type="string">Component View</XPD:ATTR>
+<XPD:REF name="Namespace">22qFljluekqLcQCvQGn0FQAA</XPD:REF>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLComponentDiagram" guid="z+Sm6mN+6EevDq2zcHaOfwAA">
+<XPD:ATTR name="Name" type="string">Main</XPD:ATTR>
+<XPD:REF name="DiagramOwner">PFOYL+RZGUWVrxpJADd3nAAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLComponentDiagramView" guid="6TlqdiuslkiDGZMfm8vENwAA">
+<XPD:REF name="Model">z+Sm6mN+6EevDq2zcHaOfwAA</XPD:REF>
+<XPD:REF name="Diagram">z+Sm6mN+6EevDq2zcHaOfwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[3]" type="UMLModel" guid="qEPVGKPPVEyl934XDZ0u+QAA">
+<XPD:ATTR name="Name" type="string">Deployment View</XPD:ATTR>
+<XPD:REF name="Namespace">22qFljluekqLcQCvQGn0FQAA</XPD:REF>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLDeploymentDiagram" guid="LBkh+SNaw0aYbR1h0kaeigAA">
+<XPD:ATTR name="Name" type="string">Main</XPD:ATTR>
+<XPD:REF name="DiagramOwner">qEPVGKPPVEyl934XDZ0u+QAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLDeploymentDiagramView" guid="hO6/ZOhiP0K6bLxTpG72PAAA">
+<XPD:REF name="Model">LBkh+SNaw0aYbR1h0kaeigAA</XPD:REF>
+<XPD:REF name="Diagram">LBkh+SNaw0aYbR1h0kaeigAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:BODY>
+</XPD:PROJECT>
