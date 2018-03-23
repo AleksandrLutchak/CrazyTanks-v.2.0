@@ -1,11 +1,9 @@
 #include "stdafx.h"
 #include "Tank.h"
 
-
-void Tank::CheckMovement()
+Tank::Tank()
 {
+	Symbol = 'O';
+	
 }
 
-void Tank::Shot(int x, int y, int direction)
-{
-}

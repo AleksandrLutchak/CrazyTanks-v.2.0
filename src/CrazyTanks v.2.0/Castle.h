@@ -1,12 +1,8 @@
 #pragma once
-class Castle
+#include "Collision.h"
+
+class Castle : public Collision
 {
-	int GoldX;
-	int GoldY;
-
 public:
-	Castle(int x, int y);
-	void BuildCastle();
-	void Gold();
+	Castle();
 };
-

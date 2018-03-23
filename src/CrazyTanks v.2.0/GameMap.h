@@ -1,23 +1,21 @@
 #pragma once
 #include <iostream>
+#include <windows.h>
 
 using namespace std;
 
 class GameMap
 {
-	static const int SIZE_Arr = 20;
-	
-	
+private:
+	static const int _SIZE_Arr = 20;
+	const int SleepScale_ = 100;
+	int PlayerY_;
+	int PlayerX_;
 public:
+	
+	char printMap(char arr[][_SIZE_Arr]);
 
-	char MapMainArr[SIZE_Arr][SIZE_Arr];
-	char BattleArr[SIZE_Arr][SIZE_Arr];
-
-	int GetSizeArr();
-	char printMap();
-	char Get_MapMainArr();	
-	char SetMapMainArr(int row, int column, char symbol);
-
+	void RefreshMap(char(*mainArr)[_SIZE_Arr], char(*BattleArr)[_SIZE_Arr]);
+	
 };
 
-GameMap gameMap;

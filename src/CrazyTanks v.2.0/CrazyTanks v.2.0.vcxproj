@@ -147,25 +147,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="AI_Tank.h" />
+    <ClInclude Include="Bullet.h" />
     <ClInclude Include="Castle.h" />
-    <ClInclude Include="Destroy.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Engine.h" />
     <ClInclude Include="GameMap.h" />
-    <ClInclude Include="GameOver.h" />
-    <ClInclude Include="PlayerTank.h" />
+    <ClInclude Include="Gold.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Tank.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="Walls.h" />
+    <ClInclude Include="Wall.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AI_Tank.cpp" />
+    <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="Castle.cpp" />
+    <ClCompile Include="Collision.cpp" />
     <ClCompile Include="CrazyTanks v.2.0.cpp" />
-    <ClCompile Include="Destroy.cpp" />
+    <ClCompile Include="Engine.cpp" />
     <ClCompile Include="GameMap.cpp" />
-    <ClCompile Include="GameOver.cpp" />
-    <ClCompile Include="PlayerTank.cpp" />
+    <ClCompile Include="Gold.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -173,7 +173,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Tank.cpp" />
-    <ClCompile Include="Walls.cpp" />
+    <ClCompile Include="Wall.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
