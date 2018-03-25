@@ -1,4 +1,4 @@
-#pragma once
+
 #include <iostream>
 #include <ctime>
 #include <conio.h>
@@ -24,54 +24,47 @@ private:
 	Tank AI_Tank3;
 	Tank AI_Tank4;
 	Tank AI_Tank5;
+	Tank AI_Tank6;
 	Bullet bullet;
+	Bullet bullet2;
+	Bullet bullet3;
+	Bullet bullet4;
 
 	GameMap Map;
 
 	static const int _SIZE_Arr = 20;
+	const int MaxWallSize_ = 4;
 
 	char MapMainArr[_SIZE_Arr][_SIZE_Arr];
 	char BattleArr[_SIZE_Arr][_SIZE_Arr];
 
-	bool _bGameOver = false;
-	bool bIsFirePressed_ = false;
+	bool _bGameOver;
+	bool bIsFirePressed_;
 	bool _bWinner;
+	bool PlayerWin;
+	bool AIWin;
 
-	bool up = false;
-	bool down = false;
-	bool left = false;
-
-	bool caseUPCheck = false;
-	bool caseDownCheck = false;
-	bool caseRightCheck = false;
-	bool caseLeftCheck = false;
-
-	const int MaxWallSize_ = 4;
-	int PlayerX;
-	int PlayerY;
-	int BulletY;
-	int BulletX;
-	int numbAI_Tanks = 0;
-	int AI_TankX;
-	int AI_TankY;
-		
+	int numbAI_Tanks;
+	
 private:
 	void Frame();
 	void CheckWallLocation(char mainArr[][_SIZE_Arr], int wallX, int wallY, char Symbol, int WallSize);
-	void CheckAI_TankLocation(char mainArr[][_SIZE_Arr], int TankX, int TankY, char AI_TankSymbol, char wallSymb);
-	void BuildObjects();
+	void CheckAI_TankLocation(char mainArr[][_SIZE_Arr], int randTankX, int randTankY, int& AI_TankX, int& AI_TankY, char AI_TankSymbol, char wallSymb);
+	void BuildObjects(int& pTankX, int& pTankY);
 	void PlayerControllers();
 	void SetMovement();
-	void CheckMovement(char mainArr[][_SIZE_Arr], int& AI_TankX, int& AI_TankY);
+	void CheckMovement(char mainArr[][_SIZE_Arr], int& AI_TankX, int& AI_TankY, char AI_TankSymbol);
 	void Shot();
-	void CheckBulletWithObjectHit();
+	void CheckBulletWithObjectHit(int& AI_TankX, int& AI_TankY);
 	void KillPlayer();
 	void DestroyGold();
-	void GameResult();
+	void GameResult(bool pWin, bool aiWin);
 	
 public:
-	int RandLocation();
 	Engine();
+	int RandLocation();
+
+	
 		
 };
 

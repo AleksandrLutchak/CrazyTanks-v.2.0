@@ -3,6 +3,7 @@
 
 Tank::Tank()
 {
+
 	Symbol = 'O';
 	
 }

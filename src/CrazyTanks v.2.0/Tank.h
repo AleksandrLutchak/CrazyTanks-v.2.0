@@ -1,4 +1,4 @@
-#pragma once
+
 #include "Collision.h"
 
 class Tank : public Collision
@@ -6,8 +6,8 @@ class Tank : public Collision
 private:
 	
 public:
-	enum eDirection { UP, DOWN, LEFT, RIGHT, FIRE };
-	eDirection dir;
+	enum eDirection { UP, DOWN, LEFT, RIGHT };
+	eDirection playerDir;
 	Tank();
 };
 

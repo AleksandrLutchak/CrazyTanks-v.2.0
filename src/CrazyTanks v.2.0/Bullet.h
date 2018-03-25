@@ -1,11 +1,11 @@
-#pragma once
+
 #include "Collision.h"
 
 class Bullet : public Collision
 {
 private:
 	static const int ammo = 400;
-		
+
 public:
 	int tempBulletValX_, tempBulletValY_, temp2BulletValX_, temp2BulletValY_;
 	int iSumOfBullets = 0;

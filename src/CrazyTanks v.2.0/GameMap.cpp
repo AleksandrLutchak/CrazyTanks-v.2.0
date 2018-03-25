@@ -22,4 +22,3 @@ void GameMap::RefreshMap(char (*mainArr)[_SIZE_Arr], char (*BattleArr)[_SIZE_Arr
 			BattleArr[i][j] = mainArr[i][j];
 }
 
-

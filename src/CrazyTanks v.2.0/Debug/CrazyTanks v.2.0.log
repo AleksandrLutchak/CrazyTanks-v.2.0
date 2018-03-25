@@ -1,3 +1,5 @@
-﻿  Engine.cpp
-c:\users\tom\source\repos\crazytanks v.2.0\crazytanks v.2.0\engine.cpp(8): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  CrazyTanks v.2.0.vcxproj -> C:\Users\Tom\source\repos\CrazyTanks v.2.0\Debug\CrazyTanks v.2.0.exe
+﻿  CrazyTanks v.2.0.cpp
+  Engine.cpp
+c:\users\user\desktop\github\crazytanks-v.2.0-master\src\crazytanks v.2.0\engine.cpp(12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  CrazyTanks v.2.0.vcxproj -> C:\Users\User\Desktop\GitHub\CrazyTanks-v.2.0-master\src\Debug\CrazyTanks v.2.0.exe
