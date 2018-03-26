@@ -26,6 +26,7 @@ private:
 	Tank AI_Tank5;
 	Tank AI_Tank6;
 	Bullet bullet;
+	Bullet AI_bullet;
 	Bullet bullet2;
 	Bullet bullet3;
 	Bullet bullet4;
@@ -61,7 +62,7 @@ private:
 	void PlayerControllers();
 	void SetMovement();
 	void CheckMovement(char mainArr[][_SIZE_Arr], int& AI_TankX, int& AI_TankY, char AI_TankSymbol);
-	void Shot();
+	void Shot(int& iSumOfBullets, int& x, int& y, int tempSumOfBulletsX[], int SumOfBulletsX[], int SumOfBulletsY[]);
 	void CheckBulletWithObjectHit(int& AI_TankX, int& AI_TankY, bool bIsDead);
 	void KillPlayer();
 	void DestroyGold();

@@ -22,11 +22,12 @@ Engine::Engine()
 	{
 		map.RefreshMap(MapMainArr, BattleArr);
 		PlayerControllers();
-		
 		SetMovement();
-
-		if(!bAI_tank1)
+		if (!bAI_tank1)
+		{
 			CheckMovement(BattleArr, AI_Tank1.x, AI_Tank1.y, AI_Tank1.Symbol);
+			Shot(AI_bullet.iSumOfBullets, AI_bullet.x, AI_bullet.y, AI_bullet.tempSumOfBulletsX, AI_bullet.SumOfBulletsX, AI_bullet.SumOfBulletsY);
+		}
 		if (!bAI_tank2)
 			CheckMovement(BattleArr, AI_Tank2.x, AI_Tank2.y, AI_Tank2.Symbol);
 		if (!bAI_tank3)
@@ -38,8 +39,14 @@ Engine::Engine()
 		if (!bAI_tank6)
 			CheckMovement(BattleArr, AI_Tank6.x, AI_Tank6.y, AI_Tank6.Symbol);
 
-		Shot();
-	
+		Shot(bullet.iSumOfBullets, bullet.x, bullet.y, bullet.tempSumOfBulletsX, bullet.SumOfBulletsX, bullet.SumOfBulletsY);
+
+		CheckBulletWithObjectHit(AI_Tank1.x, AI_Tank1.y, bAI_tank1);
+		CheckBulletWithObjectHit(AI_Tank2.x, AI_Tank2.y, bAI_tank2);
+		CheckBulletWithObjectHit(AI_Tank3.x, AI_Tank3.y, bAI_tank3);
+		CheckBulletWithObjectHit(AI_Tank4.x, AI_Tank4.y, bAI_tank4);
+		CheckBulletWithObjectHit(AI_Tank5.x, AI_Tank5.y, bAI_tank5);
+		CheckBulletWithObjectHit(AI_Tank6.x, AI_Tank6.y, bAI_tank6);
 		map.printMap(BattleArr);
 		//system("pause");
 		if (_bGameOver)
@@ -295,12 +302,19 @@ void Engine::SetMovement()
 			for (int z = 0; z < bullet.iSumOfBullets; z++)
 				if (i == bullet.SumOfBulletsX[z] && j == bullet.SumOfBulletsY[z])
 					BattleArr[i][j] = bullet.Symbol;
+			
+			for (int z = 0; z < AI_bullet.iSumOfBullets; z++)
+				if (i == AI_bullet.SumOfBulletsX[z] && j == AI_bullet.SumOfBulletsY[z])
+					BattleArr[i][j] = AI_bullet.Symbol;
 		}
 }
 
 void Engine::CheckMovement(char mainArr[][_SIZE_Arr], int& AI_TankX, int& AI_TankY, char AI_TankSymbol)
 {
 	int randWalkOnMap = rand() % 4 + 1;  //4 - is 4 ways to go. UP DOWN RIGHT LEFT
+	int chanceToRanShot = rand() % 100 + 1;
+	if (chanceToRanShot <= 5)			//5% chance to random shot
+		randWalkOnMap = 5;
 	if (AI_TankX != 0 && AI_TankY != 0)
 	{
 		switch (randWalkOnMap)
@@ -345,27 +359,49 @@ void Engine::CheckMovement(char mainArr[][_SIZE_Arr], int& AI_TankX, int& AI_Tan
 			else
 				break;
 			break;
+		case 5:
+
+			AI_bullet.tempBulletValX_ = AI_bullet.SumOfBulletsX[0];
+			AI_bullet.tempBulletValY_ = AI_bullet.SumOfBulletsY[0];
+			AI_bullet.SumOfBulletsX[0] = AI_TankX;
+			AI_bullet.SumOfBulletsY[0] = AI_TankY;
+
+			for (int i = 1; i <= bullet.iSumOfBullets; i++)
+			{
+				AI_bullet.temp2BulletValX_ = AI_bullet.SumOfBulletsX[i];
+				AI_bullet.temp2BulletValY_ = AI_bullet.SumOfBulletsY[i];
+
+				AI_bullet.SumOfBulletsX[i] = AI_bullet.tempBulletValX_;
+				AI_bullet.SumOfBulletsY[i] = AI_bullet.tempBulletValY_;
+
+				AI_bullet.tempBulletValX_ = AI_bullet.temp2BulletValX_;
+				AI_bullet.tempBulletValY_ = AI_bullet.temp2BulletValY_;
+			}
+			AI_bullet.iSumOfBullets++;
+
+			
+			break;
 
 		default:
 			break;
 		}
-
+		
 		//BattleArr[AI_TankX][AI_TankY] = AI_TankSymbol;
 	}
 }
 
-void Engine::Shot()
+void Engine::Shot(int& iSumOfBullets, int& x , int& y, int tempSumOfBulletsX[], int SumOfBulletsX[], int SumOfBulletsY[])
 {
-	for (int i = 0; i < bullet.iSumOfBullets; i++)
+	for (int i = 0; i < iSumOfBullets; i++)
 	{
 		/*if (PlayerTank.playerDir == PlayerTank.UP && bIsFirePressed_)
 		{*/
-			bullet.x = bullet.SumOfBulletsX[i];
-			bullet.tempSumOfBulletsX[i] = bullet.x;
-			bullet.x--;
-			bullet.SumOfBulletsX[i] = bullet.x;
+			x = SumOfBulletsX[i];
+			tempSumOfBulletsX[i] = x;
+			x--;
+			SumOfBulletsX[i] = x;
 			bIsFirePressed_ = false;
-			bullet.y = bullet.SumOfBulletsY[i];
+			y = SumOfBulletsY[i];
 		//}
 		//else if (bullet.tempSumOfBulletsX[i] > bullet.x && bullet.x != 0)
 		//{
@@ -422,65 +458,76 @@ void Engine::Shot()
 
 	}
 
-	CheckBulletWithObjectHit(AI_Tank1.x, AI_Tank1.y, bAI_tank1);
-	CheckBulletWithObjectHit(AI_Tank2.x, AI_Tank2.y, bAI_tank2);
-	CheckBulletWithObjectHit(AI_Tank3.x, AI_Tank3.y, bAI_tank3);
-	CheckBulletWithObjectHit(AI_Tank4.x, AI_Tank4.y, bAI_tank4);
-	CheckBulletWithObjectHit(AI_Tank5.x, AI_Tank5.y, bAI_tank5);
-	CheckBulletWithObjectHit(AI_Tank6.x, AI_Tank6.y, bAI_tank6);
+	
 }
 
 void Engine::CheckBulletWithObjectHit(int& AI_TankX, int& AI_TankY, bool bIsDead)
 {
-	
 	for (int i = 0; i < bullet.iSumOfBullets; i++)
 	{
-		if (MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] == wall.Symbol)
+		if (bullet.SumOfBulletsX[i] != 0 || bullet.SumOfBulletsY[i] != 0 || bullet.SumOfBulletsY[i] != _SIZE_Arr - 1 || bullet.SumOfBulletsX[i] != _SIZE_Arr - 1)
 		{
-			MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] = castle.Symbol;
-			bullet.SumOfBulletsX[i] = 0;
-			bullet.SumOfBulletsY[i] = 0;
-			bullet.iSumOfBullets--;
+			if (MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] == wall.Symbol)
+			{
+				MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] = castle.Symbol;
+				bullet.SumOfBulletsX[i] = 0;
+				bullet.SumOfBulletsY[i] = 0;
+				bullet.iSumOfBullets--;
+			}
+			if (BattleArr[AI_bullet.SumOfBulletsX[i]][AI_bullet.SumOfBulletsY[i]] == wall.Symbol)
+			{
+				MapMainArr[AI_bullet.SumOfBulletsX[i]][AI_bullet.SumOfBulletsY[i]] = castle.Symbol;
+				AI_bullet.SumOfBulletsX[i] = 0;
+				AI_bullet.SumOfBulletsY[i] = 0;
+				AI_bullet.iSumOfBullets--;
+			}
 
+			if (MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] == castle.Symbol)
+			{
+				MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] = 0;
+				bullet.SumOfBulletsX[i] = 0;
+				bullet.SumOfBulletsY[i] = 0;
+				bullet.iSumOfBullets--;
+			}
+			if (BattleArr[AI_bullet.SumOfBulletsX[i]][AI_bullet.SumOfBulletsY[i]] == castle.Symbol)
+			{
+				MapMainArr[AI_bullet.SumOfBulletsX[i]][AI_bullet.SumOfBulletsY[i]] = 0;
+				AI_bullet.SumOfBulletsX[i] = 0;
+				AI_bullet.SumOfBulletsY[i] = 0;
+				AI_bullet.iSumOfBullets--;
+			}
+
+			if (MapMainArr[AI_bullet.SumOfBulletsX[i]][AI_bullet.SumOfBulletsY[i]] == gold.Symbol)
+			{
+				AI_bullet.SumOfBulletsX[i] = 0;
+				AI_bullet.SumOfBulletsY[i] = 0;
+				AI_bullet.iSumOfBullets--;
+
+				AIWin = true;
+				_bGameOver = true;
+			}
+
+			if (bullet.SumOfBulletsX[i] == AI_TankX && bullet.SumOfBulletsY[i] == AI_TankY)
+			{
+				bullet.SumOfBulletsX[i] = 0;
+				bullet.SumOfBulletsY[i] = 0;
+				bullet.iSumOfBullets--;
+				AI_TankX = 0;
+				AI_TankY = 0;
+				bIsDead = true;
+			}
 		}
-		if (MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] == castle.Symbol)
+		if (AI_Tank1.x == 0 && AI_Tank1.y == 0 &&
+			AI_Tank2.x == 0 && AI_Tank2.y == 0 &&
+			AI_Tank3.x == 0 && AI_Tank3.y == 0 &&
+			AI_Tank4.x == 0 && AI_Tank4.y == 0 &&
+			AI_Tank5.x == 0 && AI_Tank5.y == 0 &&
+			AI_Tank6.x == 0 && AI_Tank6.y == 0)
 		{
-			MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] = 0;
-			bullet.SumOfBulletsX[i] = 0;
-			bullet.SumOfBulletsY[i] = 0;
-			bullet.iSumOfBullets--;
-
-		}
-		if (MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] == gold.Symbol)
-		{
-			bullet.SumOfBulletsX[i] = 0;
-			bullet.SumOfBulletsY[i] = 0;
-			bullet.iSumOfBullets--;
-
-			AIWin = true;
+			PlayerWin = true;
 			_bGameOver = true;
 		}
-		if (bullet.SumOfBulletsX[i] == AI_TankX && bullet.SumOfBulletsY[i] == AI_TankY)
-		{
-  			bullet.SumOfBulletsX[i] = 0;
-			bullet.SumOfBulletsY[i] = 0;
-			bullet.iSumOfBullets--;
-			AI_TankX = 0;
-			AI_TankY = 0;
-			bIsDead = true;
-		}
 	}
-	if (AI_Tank1.x == 0 && AI_Tank1.y == 0 &&
-		AI_Tank2.x == 0 && AI_Tank2.y == 0 &&
-		AI_Tank3.x == 0 && AI_Tank3.y == 0 &&
-		AI_Tank4.x == 0 && AI_Tank4.y == 0 &&
-		AI_Tank5.x == 0 && AI_Tank5.y == 0 &&
-		AI_Tank6.x == 0 && AI_Tank6.y == 0)
-	{
-         PlayerWin = true;
-		_bGameOver = true;
-	}
-	
 }
 
 void Engine::KillPlayer()
