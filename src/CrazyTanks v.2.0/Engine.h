@@ -3,7 +3,6 @@
 #include <ctime>
 #include <conio.h>
 
-
 #include "Castle.h"
 #include "Gold.h"
 #include "Wall.h"
@@ -42,18 +41,7 @@ private:
 	bool _bGameOver;
 	bool bIsFirePressed_;
 	bool _bWinner;
-	bool PlayerWin;
-	bool AIWin;
-
-	bool bAI_tank1;
-	bool bAI_tank2;
-	bool bAI_tank3;
-	bool bAI_tank4;
-	bool bAI_tank5;
-	bool bAI_tank6;
-
-	int numbAI_Tanks;
-	
+		
 private:
 	void Frame();
 	void CheckWallLocation(char mainArr[][_SIZE_Arr], int wallX, int wallY, char Symbol, int WallSize);
@@ -62,17 +50,15 @@ private:
 	void PlayerControllers();
 	void SetMovement();
 	void CheckMovement(char mainArr[][_SIZE_Arr], int& AI_TankX, int& AI_TankY, char AI_TankSymbol);
-	void Shot(int& iSumOfBullets, int& x, int& y, int tempSumOfBulletsX[], int SumOfBulletsX[], int SumOfBulletsY[]);
-	void CheckBulletWithObjectHit(int& AI_TankX, int& AI_TankY, bool bIsDead);
+	void Shot(int iSumOfBullets, int& x, int& y, int tempSumOfBulletsX[], int SumOfBulletsX[], int SumOfBulletsY[]);
+	void CheckBulletWithObjectHit(int& AI_TankX, int& AI_TankY, bool& bIsDead);
 	void KillPlayer();
-	void DestroyGold();
+
 	void GameResult(bool pWin, bool aiWin);
 	
 public:
 	Engine();
 	int RandLocation();
 
-	
-		
 };
 
