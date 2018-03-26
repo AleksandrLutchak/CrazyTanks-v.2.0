@@ -3,6 +3,12 @@
 
 Engine::Engine()
 {
+	bAI_tank1 = false;
+	bAI_tank2 = false;
+	bAI_tank3 = false;
+	bAI_tank4 = false;
+	bAI_tank5 = false;
+	bAI_tank6 = false;
 	_bGameOver = false;
 	bIsFirePressed_ = false;
 	PlayerWin = false;
@@ -14,20 +20,27 @@ Engine::Engine()
 	
 	while (!_bGameOver)
 	{
-		Map.RefreshMap(MapMainArr, BattleArr);
+		map.RefreshMap(MapMainArr, BattleArr);
 		PlayerControllers();
 		
 		SetMovement();
 
-		CheckMovement(BattleArr, AI_Tank1.x, AI_Tank1.y, AI_Tank1.Symbol);
-		CheckMovement(BattleArr, AI_Tank2.x, AI_Tank2.y, AI_Tank2.Symbol);
-		CheckMovement(BattleArr, AI_Tank3.x, AI_Tank3.y, AI_Tank3.Symbol);
-		CheckMovement(BattleArr, AI_Tank4.x, AI_Tank4.y, AI_Tank4.Symbol);
-		CheckMovement(BattleArr, AI_Tank5.x, AI_Tank5.y, AI_Tank5.Symbol);
-		CheckMovement(BattleArr, AI_Tank6.x, AI_Tank6.y, AI_Tank6.Symbol);
+		if(!bAI_tank1)
+			CheckMovement(BattleArr, AI_Tank1.x, AI_Tank1.y, AI_Tank1.Symbol);
+		if (!bAI_tank2)
+			CheckMovement(BattleArr, AI_Tank2.x, AI_Tank2.y, AI_Tank2.Symbol);
+		if (!bAI_tank3)
+			CheckMovement(BattleArr, AI_Tank3.x, AI_Tank3.y, AI_Tank3.Symbol);
+		if (!bAI_tank4)
+			CheckMovement(BattleArr, AI_Tank4.x, AI_Tank4.y, AI_Tank4.Symbol);
+		if (!bAI_tank5)
+			CheckMovement(BattleArr, AI_Tank5.x, AI_Tank5.y, AI_Tank5.Symbol);
+		if (!bAI_tank6)
+			CheckMovement(BattleArr, AI_Tank6.x, AI_Tank6.y, AI_Tank6.Symbol);
+
 		Shot();
 	
-		Map.printMap(BattleArr);
+		map.printMap(BattleArr);
 		//system("pause");
 		if (_bGameOver)
 			GameResult(PlayerWin, AIWin);
@@ -260,6 +273,25 @@ void Engine::SetMovement()
 			if (i == PlayerTank.x && j == PlayerTank.y)
 				BattleArr[i][j] = PlayerTank.Symbol;
 
+			if (!bAI_tank1)
+				if (i == AI_Tank1.x && j == AI_Tank1.y)
+					BattleArr[i][j] = AI_Tank1.Symbol;
+			if (!bAI_tank2)
+				if (i == AI_Tank2.x && j == AI_Tank2.y)
+					BattleArr[i][j] = AI_Tank2.Symbol;
+			if (!bAI_tank3)
+				if (i == AI_Tank3.x && j == AI_Tank3.y)
+					BattleArr[i][j] = AI_Tank3.Symbol;
+			if (!bAI_tank4)
+				if (i == AI_Tank4.x && j == AI_Tank4.y)
+					BattleArr[i][j] = AI_Tank4.Symbol;
+			if (!bAI_tank5)
+				if (i == AI_Tank5.x && j == AI_Tank5.y)
+					BattleArr[i][j] = AI_Tank5.Symbol;
+			if (!bAI_tank6)
+				if (i == AI_Tank6.x && j == AI_Tank6.y)
+					BattleArr[i][j] = AI_Tank6.Symbol;
+
 			for (int z = 0; z < bullet.iSumOfBullets; z++)
 				if (i == bullet.SumOfBulletsX[z] && j == bullet.SumOfBulletsY[z])
 					BattleArr[i][j] = bullet.Symbol;
@@ -318,7 +350,7 @@ void Engine::CheckMovement(char mainArr[][_SIZE_Arr], int& AI_TankX, int& AI_Tan
 			break;
 		}
 
-		BattleArr[AI_TankX][AI_TankY] = AI_TankSymbol;
+		//BattleArr[AI_TankX][AI_TankY] = AI_TankSymbol;
 	}
 }
 
@@ -390,15 +422,15 @@ void Engine::Shot()
 
 	}
 
-	CheckBulletWithObjectHit(AI_Tank1.x, AI_Tank1.y);
-	CheckBulletWithObjectHit(AI_Tank2.x, AI_Tank2.y);
-	CheckBulletWithObjectHit(AI_Tank3.x, AI_Tank3.y);
-	CheckBulletWithObjectHit(AI_Tank4.x, AI_Tank4.y);
-	CheckBulletWithObjectHit(AI_Tank5.x, AI_Tank5.y);
-	CheckBulletWithObjectHit(AI_Tank6.x, AI_Tank6.y);
+	CheckBulletWithObjectHit(AI_Tank1.x, AI_Tank1.y, bAI_tank1);
+	CheckBulletWithObjectHit(AI_Tank2.x, AI_Tank2.y, bAI_tank2);
+	CheckBulletWithObjectHit(AI_Tank3.x, AI_Tank3.y, bAI_tank3);
+	CheckBulletWithObjectHit(AI_Tank4.x, AI_Tank4.y, bAI_tank4);
+	CheckBulletWithObjectHit(AI_Tank5.x, AI_Tank5.y, bAI_tank5);
+	CheckBulletWithObjectHit(AI_Tank6.x, AI_Tank6.y, bAI_tank6);
 }
 
-void Engine::CheckBulletWithObjectHit(int& AI_TankX, int& AI_TankY)
+void Engine::CheckBulletWithObjectHit(int& AI_TankX, int& AI_TankY, bool bIsDead)
 {
 	
 	for (int i = 0; i < bullet.iSumOfBullets; i++)
@@ -407,6 +439,7 @@ void Engine::CheckBulletWithObjectHit(int& AI_TankX, int& AI_TankY)
 		{
 			MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] = castle.Symbol;
 			bullet.SumOfBulletsX[i] = 0;
+			bullet.SumOfBulletsY[i] = 0;
 			bullet.iSumOfBullets--;
 
 		}
@@ -414,21 +447,27 @@ void Engine::CheckBulletWithObjectHit(int& AI_TankX, int& AI_TankY)
 		{
 			MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] = 0;
 			bullet.SumOfBulletsX[i] = 0;
+			bullet.SumOfBulletsY[i] = 0;
 			bullet.iSumOfBullets--;
 
 		}
 		if (MapMainArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] == gold.Symbol)
 		{
+			bullet.SumOfBulletsX[i] = 0;
+			bullet.SumOfBulletsY[i] = 0;
+			bullet.iSumOfBullets--;
+
 			AIWin = true;
 			_bGameOver = true;
 		}
-		if (BattleArr[bullet.SumOfBulletsX[i]][bullet.SumOfBulletsY[i]] == BattleArr[AI_TankX][AI_TankY])
+		if (bullet.SumOfBulletsX[i] == AI_TankX && bullet.SumOfBulletsY[i] == AI_TankY)
 		{
-			bullet.SumOfBulletsX[i] = 0;
+  			bullet.SumOfBulletsX[i] = 0;
+			bullet.SumOfBulletsY[i] = 0;
 			bullet.iSumOfBullets--;
-
 			AI_TankX = 0;
 			AI_TankY = 0;
+			bIsDead = true;
 		}
 	}
 	if (AI_Tank1.x == 0 && AI_Tank1.y == 0 &&
